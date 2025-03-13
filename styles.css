@@ -1,0 +1,39 @@
+.headbar {
+    position: sticky;
+    width: 50%;
+    margin: auto;
+    border: solid;
+    text-align: center;
+}
+
+body {
+    background-image: url(images/fractal_background.png);
+    background-size: 100vw 100vh; 
+    background-repeat: no-repeat;
+}
+
+table {
+    width: 75%;
+    position: relative;
+    margin: auto;
+    border: double 5px;
+    background-color: antiquewhite;
+}
+.bodyworkout {
+    border-left: solid orange 4px;
+}
+
+.specialworkout {
+    border-left: solid teal 4px;
+}
+
+.workout {
+    border-left: solid dodgerblue 4px;
+}
+td {
+    background-color: aliceblue;
+    border: solid 1px;
+}
+
+
+
