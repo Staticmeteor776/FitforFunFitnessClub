@@ -4,6 +4,7 @@
     margin: auto;
     border: solid;
     text-align: center;
+    background-color: antiquewhite;
 }
 
 body {
@@ -34,6 +35,40 @@ td {
     background-color: aliceblue;
     border: solid 1px;
 }
+h2{
+    text-align: center;
+    background-color: antiquewhite;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: black solid;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.gym {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: white double 5px;
+    width: 50%;
+  }
+
+  form {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    border: 3px solid black;
+    padding: 20px;
+  }
 
 
 
