@@ -25,7 +25,41 @@
             <input type="text" id="fname" name="fname" required><br>
 
             <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" required>
+            <input type="text" id="lname" name="lname" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone"><br>
+
+            <label for="contactList">Best way to reach you:</label><br>
+            <select name="contactList" id="contactList">
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                <option value="owl">Owl</option>
+                <option value="carrierPigeon">Carrier Pigeon</option>
+            </select><br>
+
+            <fieldset>
+                <legend>Select the classes you are interested in:</legend>
+                <input type="checkbox" name="class" value="crossTraining">Cross Training<br>
+                <input type="checkbox" name="class" value="sprint">Sprint<br>
+                <input type="checkbox" name="class" value="spin">Spin<br>
+                <input type="checkbox" name="class" value="bodyPump">BodyPump<br>
+                <input type="checkbox" name="class" value="bodyCombat">BodyCombat<br>
+                <input type="checkbox" name="class" value="stepInterval">Step Interval<br>
+                <input type="checkbox" name="class" value="advancedCrossTraining">Advanced Cross Training<br>
+                <input type="checkbox" name="class" value="mixxedfit">MixxedFIT<br>
+                <input type="checkbox" name="class" value="zumba">Zumba<br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>What time do you prefer? AM or PM</legend>
+                <input type="radio" id="am" name="time" value="am" checked>AM
+                <input type="radio" id="pm" name="time" value="pm">PM
+            </fieldset><br>
+            <button type="submit" value="signup">Sign Up</button>
         </form>
     </div>
 </body>
